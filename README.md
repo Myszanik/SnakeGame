@@ -16,7 +16,7 @@ The Snake Game provides a classic arcade experience where the player manoeuvres 
 ## Requirements
 
 - Python 3.x
-- `pygame` (install via `pip install pygame`)
+- `pygame` (install via pip install -r requirements.txt)
 
 ## How to Run
 
