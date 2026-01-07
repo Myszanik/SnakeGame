@@ -4,7 +4,7 @@ This repository contains a simple Snake game implemented using the `pygame` libr
 
 ## Overview
 
-The Snake Game provides a classic arcade experience where the player maneuvers a snake around the screen, collects food, and avoids obstacles. The game is displayed using a graphical interface provided by `pygame`.
+The Snake Game provides a classic arcade experience where the player manoeuvres a snake around the screen, collects food, and avoids obstacles. The game is displayed using a graphical interface provided by `pygame`.
 
 ## Features
 
@@ -22,13 +22,13 @@ The Snake Game provides a classic arcade experience where the player maneuvers a
 
 1. **Clone this Repository**:
    ```bash
-   git clone https://github.com/yourusername/snake-game.git
+   git clone https://github.com/Myszanik/SnakeGame.git
 1. **Navigate to the Project Directory**:
    ```bash
-   cd snake-game
+   cd SnakeGame
 1. **Install Dependencies**:
    ```bash
-   pip install pygame
+   pip install -r requirements.txt
 1. **Run the Game**:
    ```bash
    python snake_game.py
