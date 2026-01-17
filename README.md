@@ -18,19 +18,25 @@ The Snake Game provides a classic arcade experience where the player manoeuvres 
 - Python 3.x
 - `pygame` (install via pip install -r requirements.txt)
 
-## How to Run
+## Setup (Windows, PowerShell)
 
 1. **Clone this Repository**:
-   ```bash
+   ```powershell
    git clone https://github.com/Myszanik/SnakeGame.git
-1. **Navigate to the Project Directory**:
-   ```bash
+2. **Navigate to the Project Directory**:
+   ```powershell
    cd SnakeGame
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-1. **Run the Game**:
-   ```bash
+3. **Create and activate a virtual environment (recommended)**:
+   ```powershell
+   python -m venv .venv
+   ```
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+4. **Install Dependencies**:
+   ```powershell
+   python -m pip install -r requirements.txt
+5. **Run the Game**:
+   ```powershell
    python snake_game.py
 
 ## Code Explanation
@@ -54,4 +60,4 @@ The Snake Game provides a classic arcade experience where the player manoeuvres 
 
 ## Status
 
-**Note:** This project is still in development. Features and functionality may be subject to change, and there may be some incomplete or experimental features. Contributions and feedback are welcome!
+This project is still in development. Features and functionality may be subject to change, and there may be some incomplete or experimental features. Contributions and feedback are welcome!
